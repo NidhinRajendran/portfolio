@@ -1,0 +1,323 @@
+*{ 
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#navbar{
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+#logo{
+    width: 130px;
+}
+
+.listitem{
+    list-style: none;
+    display: inline;
+    margin: 10px 20px;
+    font-weight: 700;    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: blue;
+}
+
+/* #home{
+    position: relative;
+} */
+
+span{
+    color: blue;
+}
+
+#home{
+    height: 400px;
+}
+
+#title{
+    margin-top: 10%;
+    margin-left: 120px;
+    
+}
+
+#title h1{
+    font-size: 40px;
+}
+
+#title a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#title a:hover{
+    color: blue;
+    background-color: rgb(171, 163, 163);
+}
+
+#image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.imagegroup{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%; 
+    transform: translateX(-50%);
+    transition: bottom 1s, left 2s;
+}
+
+#image:hover #shape{
+    bottom: 70px;
+}
+
+#image:hover #boy{
+    left: 40%;
+}
+
+#about{
+    margin-top: 13%;
+    margin-left: 8%;
+
+}
+
+  
+#heading{
+    text-align: center;
+}
+
+#heading h2{
+    font-size: 30px;
+}
+
+#heading p{
+    font-size: 20px;
+
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.content_details_span{
+    color: black;
+}
+
+#content_image img{
+    width: 80%;
+}
+
+#content_details{
+    text-align: justify;
+    font-weight: 500;
+    margin-right: 30px;
+
+}
+
+#informations{
+    margin-top: 20px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.content_details_span{
+    margin-left: 10px;
+}
+
+#skills{
+    margin-top: 20%;
+    margin-left: 8%;
+
+}
+
+#skill_content{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+#skill_details{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2rem;
+
+}
+
+.skill_items{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.skill_items h5{
+    font-weight: 800;
+    margin-top: 10px;
+    
+}
+
+.skill_items span{
+    margin-top: 10px;
+}
+
+#skill_image img{
+    width:100%;
+}
+
+.bar{
+    width: 100%;
+    height: 1rem;
+    background-color: black;
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+#HTML{
+    width: 95%;
+    background-color: blue;
+}
+#CSS{
+    width: 88%;
+    background-color: blue;
+
+}
+
+#JS{
+    width: 89%;
+    background-color: blue;
+}
+
+#REACT{
+    width: 92%;
+    background-color: blue;
+}
+
+#contacts{
+    margin-top: 25%;
+    margin-left: 8%;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}  
+
+.icon, .up_arrow{
+    width: 80px;
+    height: 80px;
+    margin: 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 40px;
+   border: 1px solid white;
+    border-radius: 50%;
+}
+
+.icon i{
+    color: black;
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right, black, blue);
+    
+   
+}
+
+.icon:hover i{
+    color: white;
+    animation: anime 1s;
+}
+
+@keyframes anime{
+    0%{
+        transform: rotate(90deg);
+    }
+    25%{
+        transform: rotate(180deg);
+
+    }
+    50%{
+        transform: rotate(270deg);
+
+    }
+    75%{
+        transform: rotate(360deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+footer{
+    margin-top: 10px;
+    padding: 3rem 0px;
+}
+
+footer p{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.up_arrow:hover{
+    background-image: linear-gradient(to bottom right, black, blue);
+}
+
+.up_arrow:hover i{
+    color: white;
+}
+
+.up_arrow i{
+    color: black;
+}
+
+
+
+.up_arrow{
+    
+    float: right;
+    /* margin: 10px 50px 50px 0px; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+ 
+
+
